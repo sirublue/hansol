@@ -1,0 +1,12 @@
+문서너비:1276px
+wrap너비:1216px
+16-그리드:76px(좌우패딩 12px)
+폰트:
+font-family: 'Nanum Gothic', sans-serif;(한글-메인폰트)
+font-family: 'Robot', sans-serif;(영문-메인폰트)
+font-family: 'Archivo Black', sans-serif;(영문-강조폰트)
+메인색상:#007dc6(파랑),#00a651(초록)
+서브색상:#333333(택스트)
+
+
+

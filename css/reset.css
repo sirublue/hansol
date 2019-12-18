@@ -1,0 +1,38 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,span,ul,li,ol,input,div,
+textarea,section,header,footer,aside,address,
+nav,a,fieldset,figure,img,hr,article,select,option,input{
+   box-sizing:border-box;
+   font-family: 'Nanum Gothic', sans-serif;
+   margin:0;
+   border:none;
+   padding:0;
+   font-size:16px;
+   font-weight:400;
+   color:#333;
+   vertical-align:baseline;
+}
+
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+
+.clearfix::after{display:block;content:"";clear:both;}
+
+.col_pad{padding:0 0.9868421052631579%;}
+
+.col_01{width:6.25%;}
+.col_02{width:12.5%;}
+.col_03{width:18.75%;}
+.col_04{width:25%;}
+.col_05{width:31.25%;}
+.col_06{width:37.5%;}
+.col_07{width:43.75%;}
+.col_08{width:50%;}
+.col_09{width:56.25%;}
+.col_10{width:62.5%;}
+.col_11{width:68.75%;}
+.col_12{width:75%;}
+.col_13{width:81.25%;}
+.col_14{width:87.5%;}
+.col_15{width:93.75%;}
+.col_16{width:100%;}

@@ -1,0 +1,135 @@
+      @charset "utf-8";
+      .h3_tit{float:left;font-size:20px;font-weight:bold;}
+      .p_quick{float:right;font-size:14px;padding-top:7px;}
+
+
+      #wrap{width:95.29780564263323%;max-width:1400px;margin:0 auto;}
+   
+      /* ===header style=== */
+      .header{margin-bottom:75px;}
+         /* ===header top=== */
+      
+      .line01{height:3px;background:#007dc6;margin-bottom:19px;}
+      .logo{float:left;padding-top:10px;}
+      .logo ul{float:left;margin-right:20px;}
+      .logo ul>li{width:25px;height:25px; text-indent:-99999px;}
+      .logo ul>li:nth-child(1){background:#007dc6}
+      .logo ul>li:nth-child(3){background:#00a651}
+      .logo h1{float:left;font-family: 'Archivo Black', sans-serif;font-size:72px;}
+      .menu{float:right;}
+      .site_map{margin-bottom:37px;float:right;}
+      .site_map>li{float:left;padding:0 10px;border-right:1px solid #333;}
+      .site_map>li>a{font-family: 'Robot', sans-serif;font-size:14px;}
+      .site_map>li:nth-child(4),.site_map>li:nth-child(5),.site_map>li:nth-child(6){border:none;}
+      .site_map>li:nth-child(5),.site_map>li:nth-child(6){width:40px;}
+      .site_map>li img{width:100%;}
+      .tgl_btn{margin-top:20px;display:none;}
+      .tgl_btn>li{width:50px;height:10px;margin-bottom:10px;background:#333;text-indent:-99999px;}
+      .tgl_btn>li:last-child{margin:0}
+      .nav{margin-bottom:20px;clear:both;}
+      .nav>.nav_list>li{display:inline-block;padding:0 16px;}
+      .nav>.nav_list>li:first-child{display:none;}
+      .nav>.nav_list>li:last-child{padding:0;}
+      .nav>.nav_list>li>a{font-size:26px;}
+
+      .header_banner{margin-bottom:40px;}
+      .banner_img{position: relative;}
+      .banner02,.banner03{display:none;}
+      .banner_img>img{width:100%;vertical-align:top;}
+      .banner_img>.banner_txt{position:absolute;top:30%;left:6.25%;}
+      .banner_txt>h2{font-family: 'Archivo Black', sans-serif;font-size:10vw;color:white;border-bottom:1px solid white;margin-bottom:20px;}
+      .banner_txt>p{font-size:3vw;color:white;}
+      .banner_list>li{float:left;width:33.33333333333333%;border:1px solid #cccccc;padding:10px 16px;font-size:14px;font-weight:bold;color:#cccccc;}
+      .banner_list>li:hover{border:1px solid #007dc6;background:#007dc6;color:white;}
+
+      .quick{float:left;}
+      .quick_top{padding:0 13.15789473684211%;}
+      .quick_top p{float:left;font-size:14px;font-weight:bold;color:#00a651;line-height:24px;margin-bottom:10px;}
+      .quick_top div{float:right;width:30px;height:30px;border-radius:15px;background:#00a651;color:white;text-align:center;line-height:30px;}
+      .line02{padding:0 13.15789473684211%;height:1px;background:#00a651;background-clip:content-box;}
+      .header_quick_link{display:none;}
+      
+      /* ===contents style=== */
+      #contents{border-bottom:2px solid #00a651;padding-bottom:50px;}
+      #contents>#cont_left{float:left;width:23%;}
+      #contents>#cont_left>h3{border-bottom:2px solid #00a651;padding:10px;font-size:2em;font-weight:bold;}
+      #contents>#cont_left>ul>li{border-bottom:1px solid gray;padding:20px 10px;}
+      #contents>#cont_left>ul>li:last-child{border:none;}
+
+      #contents>#cont_right{float:right;width:75%;}
+      #contents>#cont_right>h3{border-bottom:2px solid #007dc6;padding:10px 0;font-size:2em;font-weight:bold;}
+      #contents>#cont_right>h2{font-size:1.4em;color:#007dc6;}
+      #contents>#cont_right>h4{font-size:1.2em;font-weight:bold;margin-bottom:5px;}
+      #contents>#cont_right>p{line-height:18px;}
+      .line03{border-bottom:1px solid gray;}
+
+      /* ===footer style=== */
+      .footer{padding-bottom:30px;}
+      .footer .line01{background:#00a651;height:1px;}
+      .footer .logo ul{margin-right:16px;}
+      .footer .logo ul>li{width:16px;height:16px;}
+      .footer .logo h1{font-size:46px;}
+      .footer .logo img{display:none;}
+      .footer .address{float:left;padding-top:20px;}
+      .footer .address p{font-size:14px;text-align:center;}
+      .footer .address p:last-child{font-family: 'Robot', sans-serif;margin-top:6px;}
+      .footer .link_site{float:right;padding-top:20px;}
+      .footer .link_site select{width:57.89473684210526%;margin-right:8.771929824561404%;border:1px solid #ccc;padding:2px;font-size:14px;}
+      .footer .link_site option{font-size:14px;}
+      .footer .link_site input{width:25%;background:#00a651;color:white;font-size:14px;padding:2px;cursor:pointer;}
+      .footer .link_site p{text-align:center;font-size:14px;margin-top:10px;}
+
+
+
+
+      /* =========1120px 이하 해상도 스타일======== */
+      @media(max-width:1120px){
+         #wrap{width:100%;}
+         .nav>.nav_list>li>a{font-size:20px;}
+         .quick{width:25%;}
+      }
+
+      /* ========960px 이하 해상도 스타일======= */
+      @media(max-width:960px){
+         .site_map{display:none;}
+         .nav{z-index:10;position:fixed;top:0;right:0;width:50%;height:100%;background:#333;display:none;}
+         .nav>.nav_list>li{display:block;padding:20px;}
+         .nav>.nav_list>li:first-child{display:block;}
+         .nav>.nav_list>li:last-child{padding:20px;}
+         .nav>.nav_list>li>a{color:white;}
+         .nav>.nav_list>li>a:hover{color:#00a651;}
+         .tgl_btn{display:block;cursor: pointer;}
+         .banner_list{width:140px;margin:0 auto;}
+         .banner_list>li{display:inline-block;width:20px;height:20px;border:none;border-radius:10px;padding:0;margin:10px;background:#333;text-indent:-9999px;}
+         .banner_list>li:hover{border:none;}
+         .footer .logo ul{display:none;}
+         .footer .logo h1{display:none;}
+         .footer .logo img{display:inline-block;width:30%;margin-left:35%;}
+      }
+
+      /* ==========870px 이하 해상도 스타일============== */
+      @media(max-width:870px){
+         .quick{width:50%;}
+         .footer .address{width:75%;}
+         .footer .link_site{display:none;}
+      }
+
+      /* =========640px 이하 해상도 스타일=========== */
+      @media(max-width:640px){
+         .quick{width:100%;border:2px solid #007dc6;}
+         .quick_top{padding:0;margin:0;}
+         .quick_top p{float:initial;padding:20px;font-size:22px;margin:0;text-align:center;background:#00a651;color:#007dc6;}
+         .quick_top div{display:none;}
+         .line02{display:none;}
+         .quick:hover{border-color:#00a651;} 
+         .quick:hover .quick_top p{background:#007dc6;color:#00a651;}
+         .footer{background:#00a651;}
+         .footer p{color:white;font-weight:bold;}
+         .footer .logo{display:none;}
+         .footer .address{width:100%;}
+      }
+
+      /* =========400px 이하 해상도 스타일=========== */
+      @media(max-width:400px){
+         .h3_tit{font-size:16px;}
+      }
